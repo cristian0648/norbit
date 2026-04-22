@@ -19,7 +19,7 @@ namespace Prueba
             Console.Write("Tiene capa? (true/false): ");
             bool capa = Convert.ToBoolean(Console.ReadLine());
 
-            Console.WriteLine("\nDatos cargados:");
+            Console.WriteLine("Datos cargados:");
             Console.WriteLine("Nombre: " + Heroe);
             Console.WriteLine("Descripcion: " + descripcion);
             Console.WriteLine("Capa: " + capa);
@@ -41,7 +41,7 @@ namespace Prueba
 
             double vol = Alto + Ancho * Profundidad;
 
-            Console.WriteLine("\nVolumen calculado: " + vol);
+            Console.WriteLine("Volumen calculado: " + vol);
 
             Console.ReadKey();
             Console.Clear();
@@ -60,7 +60,7 @@ namespace Prueba
 
             double Preciofinal = Precio + Extra;
 
-            Console.WriteLine("\nResultado:");
+            Console.WriteLine("Resultado:");
             Console.WriteLine("ID: " + id);
             Console.WriteLine("Precio final: " + Preciofinal);
 
@@ -94,7 +94,7 @@ namespace Prueba
                 }
             }
 
-            Console.WriteLine("\nResumen:");
+            Console.WriteLine("Resumen:");
             Console.WriteLine("Total: " + suma);
             Console.WriteLine("Mayor precio: " + max);
 
